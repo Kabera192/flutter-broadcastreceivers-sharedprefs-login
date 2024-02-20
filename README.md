@@ -1,12 +1,13 @@
 # calculator_app
 
-A new Flutter project.
+A flutter project that implements a listener for internet connectivity and shows a snack bar informing the user whether they are online or not.
+
+The project also implements the use of shared preferences to store, in this case, the user's desired theme for the application, namely, light or
+dark theme.
+
+The project also implements a login page that can be navigated to via the bottom navigation bar.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
