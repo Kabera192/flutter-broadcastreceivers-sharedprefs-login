@@ -78,6 +78,7 @@ class _NavigationState extends State<Navigation> {
           child: myTabs[navIndex],
         ),
         bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
           showUnselectedLabels: false,
           currentIndex: navIndex,
           items: [
